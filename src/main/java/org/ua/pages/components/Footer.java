@@ -1,6 +1,6 @@
-package org.pages.components;
+package org.ua.pages.components;
 
-import org.pages.BasePage;
+import org.ua.pages.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

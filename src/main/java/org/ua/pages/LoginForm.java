@@ -1,19 +1,21 @@
-package org.pages;
+package org.ua.pages;
 
-import org.pages.components.Footer;
-import org.pages.components.Header;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.ua.pages.components.Footer;
+import org.ua.pages.components.Header;
 
-public class PageOne extends BasePage {
+
+
+public class LoginForm extends BasePage {
 
     @FindBy(xpath = "//body")
     public WebElement bodyOne;
-    public  Footer footer;
+    public Footer footer;
     public Header header;
 
-    public PageOne(WebDriver driver) {
+    public LoginForm(WebDriver driver) {
         super(driver);
         this.footer = new Footer(driver);
         this.header = new Header(driver);
@@ -23,6 +25,6 @@ public class PageOne extends BasePage {
     {
         footer.contacts.click();
         header.menu.click();
-        return this;
+        return this.clickOnFooterAndHeader();
     }
 }

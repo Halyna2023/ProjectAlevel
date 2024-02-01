@@ -1,8 +1,8 @@
-package org.pages;
+package org.ua.pages;
 
 
-import org.pages.components.Footer;
-import org.pages.components.Header;
+import org.ua.pages.components.Footer;
+import org.ua.pages.components.Header;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
