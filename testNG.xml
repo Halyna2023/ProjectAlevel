@@ -1,14 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name = "selenium" parallel="classes" thread-count="2">
-<!--    <test name= "actions">-->
-<!--        <classes>-->
-<!--            <class name="ActionsPageObjectTests"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-<!--    <test name="waits">-->
-<!--        <classes>-->
-<!--            <class name="Waits"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name= "Date">
+        <classes>
+            <class name="DataTests"/>
+        </classes>
+    </test>
+    <test name="Facebook">
+        <classes>
+            <class name="FacebookLoginTest"/>
+        </classes>
+    </test>
+    <test name="Footer">
+        <classes>
+            <class name="FooterPage"/>
+        </classes>
+    </test>
+    <test name="Google">
+        <classes>
+            <class name="GoogleLoginTest"/>
+        </classes>
+    </test>
+    <test name="PnLogin">
+    <classes>
+        <class name="PnLoginTest"/>
+    </classes>
+</test>
+    <test name="Transition Computer">
+        <classes>
+            <class name="TransitionComputerPage"/>
+        </classes>
+    </test>
+    <test name="Transition Electronics">
+        <classes>
+            <class name="TransitionElectronicsPage"/>
+        </classes>
+    </test>
+    <test name="Transition Doun">
+        <classes>
+            <class name="TransitionDounPage"/>
+        </classes>
+    </test>
+    <test name="Vendor Element">
+        <classes>
+            <class name="VendorElement"/>
+        </classes>
+    </test>
+
 </suite>
