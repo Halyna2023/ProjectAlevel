@@ -1,17 +1,20 @@
-package org.ua.pages.components;
+package org.ua.pages;
 
-import org.ua.pages.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class Footer extends BasePage {
-    public Footer(WebDriver driver)
+
+
+public class MainPage extends BasePage {
+    public MainPage(WebDriver driver)
     {
         super(driver);
     }
 
-    @FindBy(id = "box1")
+    @FindBy(xpath = "//*[@cz-shortcut-listen]")
     public WebElement  contacts;
-
 }
+
+
+

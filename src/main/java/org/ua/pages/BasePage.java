@@ -1,5 +1,6 @@
 package org.ua.pages;
 
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
@@ -11,3 +12,4 @@ public abstract class BasePage {
         PageFactory.initElements(driver,this);
     }
 }
+
