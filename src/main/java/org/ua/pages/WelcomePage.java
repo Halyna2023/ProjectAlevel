@@ -41,16 +41,16 @@ public class WelcomePage extends BasePage {
         return computer.getText();
     }
 
-//    public WelcomePage moveOsloToSouthKorea()
-//    {
-//        new Actions(driver).dragAndDrop(oslo,southKorea).build().perform();
-//        return this;
-//    }
-//    public WelcomePage moveStockholmToSweden()
-//    {
-//        new Actions(driver).dragAndDrop(stockholm,sweden).build().perform();
-//        return this;
-//    }
+    public WelcomePage moveOsloToSouthKorea()
+   {
+       new Actions(driver).dragAndDrop(goods,stor).build().perform();
+       return this;
+    }
+    public WelcomePage moveStockholmToSweden()
+    {
+        new Actions(driver).dragAndDrop(domestic_equipment,electronics).build().perform();
+        return this;
+    }
 }
 
 
