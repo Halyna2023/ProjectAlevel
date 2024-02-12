@@ -47,9 +47,9 @@ public class TransitionElectronicsPage {
 
         // Проверка, что URL новой страницы не равен URL предыдущей страницы (простой способ проверки перехода)
         if (!newPageUrl.equals("https://pn.com.ua/electronics/")) {
-            System.out.println("Помилка: перехід на сторінку електороніка не виконано!");
+            System.out.println("Error: transition to the electronics page failed!");
                  } else {
-            System.out.println("Перехід на нову сторінку електроніка виконано успішно!");
+            System.out.println("The transition to the new Electronics page was successful!");
         }
 
         // Закрытие браузера

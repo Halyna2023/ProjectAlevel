@@ -47,9 +47,9 @@ public class FooterPage {
 
         // Проверка, что URL новой страницы не равен URL предыдущей страницы (простой способ проверки перехода)
         if (!newPageUrl.equals("https://pn.com.ua/ct/6931/")) {
-            System.out.println("Помилка: перехід на сторінку електороніка не виконано!");
+            System.out.println("Error: transition to a new page failed!");
                  } else {
-            System.out.println("Перехід на нову сторінку електроніка виконано успішно!");
+            System.out.println("The transition to the new Electronics page was successful!");
         }
 
         // Закрытие браузера

@@ -56,9 +56,9 @@ public class PnLoginTest {
 
         // Проверка, что URL новой страницы не равен URL предыдущей страницы (простой способ проверки перехода)
         if (newPageUrl.equals("https://pn.com.ua/")) {
-            System.out.println("Переход на новую страницу выполнен успешно!");
+            System.out.println("Successful!");
         } else {
-            System.out.println("Ошибка: переход на новую страницу не выполнен!");
+            System.out.println("Error: transition to a new page failed!");
         }
 
         // Закрытие браузера

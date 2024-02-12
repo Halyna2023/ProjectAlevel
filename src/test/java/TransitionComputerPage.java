@@ -47,9 +47,9 @@ public class TransitionComputerPage {
 
         // Проверка, что URL новой страницы не равен URL предыдущей страницы (простой способ проверки перехода)
         if (!newPageUrl.equals("https://pn.com.ua/computer/")) {
-            System.out.println("Помилка: перехід на сторінку Комп'ютери не виконано!");
+            System.out.println("Error: The transition to the Computers page failed!");
         } else {
-            System.out.println("Перехід на нову сторінку Комп'ютери виконано успішно!");
+            System.out.println("You have successfully navigated to the new Computers page!");
         }
 
         // Закрытие браузера

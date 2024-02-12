@@ -47,7 +47,7 @@ public class VendorElement {
 
         // Проверка, что URL новой страницы не равен URL предыдущей страницы (простой способ проверки перехода)
         if (!newPageUrl.equals("https://pn.com.ua/vendor/")) {
-            System.out.println("Mistake: the link in the footer of the page is not working!");
+            System.out.println("Error: the link in the footer of the page is not working!");
         } else {
             System.out.println("The transition to a new page via the link in the footer was successful!");
         }
