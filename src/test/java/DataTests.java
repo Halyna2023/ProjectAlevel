@@ -21,9 +21,9 @@ public class DataTests {
     public Object[][] searchDate()
     {
         return new Object[][]{
-                {"electronics"},//,"PM"
-                {"domestic-equipment"},//"UI/UX"
-
+                {"electronics"},
+                {"domestic-equipment"},
+                {"123"},
         };
     }
 
