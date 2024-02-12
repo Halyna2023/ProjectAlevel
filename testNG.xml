@@ -36,9 +36,14 @@
             <class name="TransitionElectronicsPage"/>
         </classes>
     </test>
-    <test name="Transition Doun">
+    <test name="Search Transition">
         <classes>
-            <class name="TransitionDounPage"/>
+            <class name="TransitionDataPage"/>
+        </classes>
+    </test>
+    <test name="Transition Down">
+        <classes>
+            <class name="TransitionDownPage"/>
         </classes>
     </test>
     <test name="Vendor Element">
